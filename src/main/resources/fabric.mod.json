@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "far_lands_unpatch",
+  "version": "${version}",
+
+  "name": "Far Lands Unpatch",
+  "description": "Unpatches the Far Lands.",
+  "authors": [
+    "LostXOR"
+  ],
+
+  "icon": "assets/icon.png",
+
+  "environment": "*",
+  "mixins": [
+    "far_lands_unpatch.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.0",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=16"
+  }
+}

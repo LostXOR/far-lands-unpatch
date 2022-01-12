@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.fabricmc.far_lands_unpatch.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "FarLandsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
